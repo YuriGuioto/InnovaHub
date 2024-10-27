@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    /* Colors */
+    --primary: #5375e2 !important;
+    --secondary: #f65868 !important;
+    --dark-grey: #5c616e !important;
+    --grey: #7791a1 !important;
+    --light-grey: #fefefe !important;
+    --white: #ffffff !important;
+    --black: #000000 !important;
+
+    
+    --logo: "Poppins", sans-serif;
+    --text: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+}
+
+
+.navbar-brand img {
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-brand i {
+    font-size: 2rem;
+    color: var(--primary);
+}
+
+.navbar {
+    padding: 1% 2%;
+    opacity: 1;
+    background-color: var(--grey);
+}
+
+
+.navbar-brand {
+    font-family: var(--logo);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.navbar-toggler {
+    justify-content: flex-end;
+}
+
+.nav-link {
+    margin: 0 2rem;
+    font-family: var(--logo);
+    color: var(--black);
+}
+
+.nav-link:hover {
+    color: var(--secondary);
+}
+
+.nav-item {
+    margin-left: 0px;
+}
+
+.nav-link:hover .navbar:hover {
+    color: var(--secondary);
+}
+
+.hamburger-icon {
+    color: var(--primary);
+}
+
+.hamburger-icon:hover {
+    color: var(--dark-grey);
+    outline: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: end;
+}
+
+#home {
+    height: 104.5vh;
+    background-size: cover;
+    margin-top: -58.59px;
+}
+ 
+
+.mask {
+    height: 104.5vh;
+    background-color: rgba(0, 13, 56, 0.8);
+}
+
+.text-container {
+    color: var(--white);
+    margin-top: 6rem;
+}
+
+.arrow-icon {
+    margin-top: 10rem;
+    color: var(--white);
+}
+
+.learn-more {
+    text-decoration: none !important;
+    color: var(--white);
+}
+
+.arrow-icon:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.learn-more:hover {
+    color: var(--light-grey);
+    text-decoration: none;
+}
+
+#about,
+
+#galery {
+    margin-top: 50px;
+    padding-top: 5%;
+}
+
+#news {
+    margin-top: 50px;
+    padding-top: 5%;
+}
+
+.heading {
+    font-family: var(--logo);
+    font-weight: 600;
+    color: var(--primary);
+    padding: 2% 2% 0;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
+    text-decoration-color: var(--black); 
+    text-underline-offset: 4px; 
+}
+
+.about-text {
+    font-family: var(--text);
+    color: var(--dark-grey);
+    font-size: 1.2rem;
+    padding: 1% 8%;
+    line-height: 38px;
+}
+
+#register {
+    background-color: var(--primary);
+    padding: 5% 0 5% 0;
+    margin-top: 180px;
+}
+
+.register-heading {
+    font-family: var(--logo);
+    font-weight: 600;
+    color: var(--white);
+    padding: 2% 2%;
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
+    text-decoration-color: var(--primary); 
+    text-underline-offset: 4px; 
+}
+
+.register-container {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 5%;
+}
+
+
+.card {
+    width: 20rem;
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding: 3%;
+}
+
+.card-img-top {
+    padding: 10%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card:hover{
+        box-shadow: 1px 1px 5px 1px var(--primary);
+}
+
+#contact {
+    background-color: var(--primary);
+    padding: 5% 0 5% 0;
+    margin-top: 80px;
+}
+
+.contact-container {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 5%;
+    margin: 0 6%;
+}
+
+.foot-icon {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 0; 
+}
+
+.foot-icon ul {
+    display: flex; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.foot-icon li {
+    list-style: none; 
+    margin: 0 10px; 
+}
+
+.foot-icon i {
+    font-size: 25px; 
+}
+
+.foot-icon i,
+.copyright {
+    color: var(--white);
+}
